@@ -18,7 +18,7 @@ A presentation about Linked Census Data, including TabLinker is [available from 
 ## Using TabLinker
 
 TabLinker takes annotated Excel files (found using the `srcMask` option in the [config.ini](http://github.com/Data2Semantics/TabLinker/tree/master/config.ini) file) and converts them to RDF. This RDF is serialized to the target folder specified using the `targetFolder` option in [config.ini](http://github.com/Data2Semantics/TabLinker/tree/master/config.ini).
-xls
+
 Annotations in the Excel file should be done using the built-in **style** functionality of Excel (you can specify these by hand). TabLinker currently recognises seven styles:
 
 * **TL Title** - The cell containing the title of a sheet
