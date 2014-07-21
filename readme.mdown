@@ -18,7 +18,7 @@ A presentation about Linked Census Data, including TabLinker is [available from 
 ## Using TabLinker
 
 TabLinker takes annotated Excel files (found using the `srcMask` option in the [config.ini](http://github.com/Data2Semantics/TabLinker/tree/master/config.ini) file) and converts them to RDF. This RDF is serialized to the target folder specified using the `targetFolder` option in [config.ini](http://github.com/Data2Semantics/TabLinker/tree/master/config.ini).
-
+xls
 Annotations in the Excel file should be done using the built-in **style** functionality of Excel (you can specify these by hand). TabLinker currently recognises seven styles:
 
 * **TL Title** - The cell containing the title of a sheet
@@ -31,7 +31,7 @@ Annotations in the Excel file should be done using the built-in **style** functi
 
 An eight style, **TL Metadata**, is currently ignored (See #3).
 
-An [example of such an annotated Excel file](http://github.com/Data2Semantics/TabLinker/tree/master/input/BRT_1889_02_T1_marked.xls) is provided in the [input](http://github.com/Data2Semantics/TabLinker/tree/master/input/) directory. There are ways to import the styles defined in that file into your own Excel files.
+An [example of such an annotated Excel file](https://github.com/Data2Semantics/TabLinker/raw/master/input/simple_marked.xls) is provided in the [input](http://github.com/Data2Semantics/TabLinker/tree/master/input/) directory. There are ways to import the styles defined in that file into your own Excel files.
 
 **Tip:** If your table contains totals for HierarchicalRowHeader cell values, use a non-TabLink style to mark the cells between the level to which the total belongs, and the cell that contains the name of the total. Have a look at the example [annotated Excel file](http://github.com/Data2Semantics/TabLinker/tree/master/input/BRT_1889_02_T1_marked.xls) to see how this is done (up to row 428).
 
